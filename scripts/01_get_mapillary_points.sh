@@ -9,4 +9,4 @@ $mapimg get_mapillary_points \
     --output_file_sequence=data/data/denver_sequences.geojson \
     --bbox=-105.109,39.614,-104.60,39.9142
 
-aws s3 sync data/ s3://urban-blight/detroit/mapillary/points_sequences/
+aws s3 sync data/ s3://wastebin/v0.1/mapillary/points_sequences/
