@@ -120,6 +120,8 @@ def download_clip_img(feature, output_images_path, image_clip_size, cube_sides):
         print(err)
     except KeyError as err:
         print(err)
+    except AttributeError as err:
+        print(err)
 
     return new_feature
 

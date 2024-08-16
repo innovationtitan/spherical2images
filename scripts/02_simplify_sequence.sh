@@ -3,7 +3,7 @@ mapimg="docker run -v $PWD:/mnt/ -e MAPILLARY_ACCESS_TOKEN=$MAPILLARY_ACCESS_TOK
 
 outputDir=data
 
-neighborhoods=(Belmont Brush_Park Carbon_Works Franklin_Park Petoskey_sego Warrendale Weatherby Fiskhorn)
+neighborhoods=(denver)
 for neighborhood in "${neighborhoods[@]}"; do
         echo "======== ${neighborhood} ====="
 
